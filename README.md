@@ -11,7 +11,7 @@ The theme provided was "Villains".
 ## About Gameplay
 The gameplay focuses on Kevin, the main character. You the player are to search the world and defeat all the police officers while recruiting minions in order to destroy the village. There is a combat secquence that will take place and get progressively harder as you continue until either all the cops are gone or Kevin has been arrested from lack of minions.
 
-##Team Members
+## Team Members
 - Josh
 - Lucas
 - Zsigmond
