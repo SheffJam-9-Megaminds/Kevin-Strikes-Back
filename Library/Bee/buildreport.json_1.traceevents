@@ -1,0 +1,636 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676207638562453, "dur": 1301063, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207638562739, "dur": 1819, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207638564559, "dur": 24322, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207638588883, "dur": 421670, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207639010555, "dur": 851116, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207639861674, "dur": 1841, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207639864312, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676207638881792, "dur": 119150, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207638882637, "dur": 32942, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207638988159, "dur": 3710, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207638991873, "dur": 9061, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207638992457, "dur": 7868, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207639004495, "dur": 1065, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676207639003823, "dur": 1758, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207639864455, "dur": 178, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676207639040512, "dur":1013, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639041532, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676207639041628, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676207639041645, "dur":488, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676207639042151, "dur":357, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639042508, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851242, "dur":357, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851600, "dur":92, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851692, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851696, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851750, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851754, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851774, "dur":39, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851813, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851818, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851819, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851823, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851824, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851829, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851832, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851876, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851880, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851881, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851886, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851887, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851890, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851891, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851894, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851895, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851897, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851899, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851902, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851902, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851905, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851906, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851909, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851910, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851912, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851913, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851916, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851917, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851920, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851921, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851924, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851925, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851929, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851937, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639851997, "dur":1390, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676207639042212, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639042574, "dur":3193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639045767, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676207639046178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639077401, "dur":126149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676207639203623, "dur":44725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639248354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639248366, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639250455, "dur":22314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639272776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639272788, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639275105, "dur":35753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639310863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639310874, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639315796, "dur":24091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639339926, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639339949, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639343271, "dur":158728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639502008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639502022, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639503630, "dur":163115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639666752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676207639666764, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676207639668652, "dur":182602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639042354, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639042598, "dur":3066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639045667, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676207639045969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639051289, "dur":20067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676207639071524, "dur":117309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639188838, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639189759, "dur":5528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639195367, "dur":53440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639248825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639248836, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639250946, "dur":28058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639279011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639279023, "dur":6604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639285694, "dur":21376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639307086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639307098, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639310204, "dur":29420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639339629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639339639, "dur":4037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639343731, "dur":29085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639372825, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639372848, "dur":12830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639385734, "dur":45603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639431343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639431354, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639433514, "dur":113234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639546756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639546769, "dur":10725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639557546, "dur":215350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639772900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676207639772909, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676207639773870, "dur":77377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639042300, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639042581, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639045753, "dur":16844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676207639062600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639062923, "dur":9252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676207639072210, "dur":116544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639188762, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639189652, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639193886, "dur":23512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639217402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639217499, "dur":5352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639222911, "dur":37510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639260427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639260440, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639262014, "dur":45580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639307601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639307629, "dur":8739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639316429, "dur":123241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639439678, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639439691, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639442542, "dur":160398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639602945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639602955, "dur":12726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676207639615794, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676207639615863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639615873, "dur":7823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676207639623823, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676207639623886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676207639623896, "dur":7483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676207639631445, "dur":219817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639042312, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639042585, "dur":3160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639045746, "dur":14114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676207639059864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639059881, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676207639061436, "dur":127587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639189032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639189833, "dur":5610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639195673, "dur":158217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639353897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639353910, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639357333, "dur":129754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639487132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639487145, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639489465, "dur":160858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639650343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676207639650357, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676207639652521, "dur":198797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676207639042282, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676207639042579, "dur":3167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676207639045747, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676207639046127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676207639062712, "dur":371713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676207639434500, "dur":213071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676207639647577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676207639647588, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676207639650592, "dur":200665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639042328, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639042590, "dur":3143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639045734, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676207639046470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639077945, "dur":112120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676207639190127, "dur":27296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639217607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639217617, "dur":7353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639225049, "dur":24627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639249681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639249703, "dur":5749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639255518, "dur":42379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639297905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639297920, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639300719, "dur":26576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639327304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639327319, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639328727, "dur":35479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639364212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639364224, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639366296, "dur":93576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639459879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639459890, "dur":17363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639477315, "dur":91199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639568521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639568533, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676207639570635, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639570820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639571567, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639573039, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639573104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639573111, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639574689, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639574746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639574754, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639576384, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639576466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639576475, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639579091, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639579165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639579174, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639581625, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639581684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639581693, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639583833, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639583892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639583901, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639585772, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639585831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639585840, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676207639587219, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639587341, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639587372, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639589519, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639589578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639589664, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676207639591268, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639591436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639591445, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639592673, "dur":8066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639600745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639600754, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1676207639603042, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639603110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639603233, "dur":11624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676207639614924, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1676207639614980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639614988, "dur":6963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1676207639622014, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676207639622078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639622085, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1676207639627045, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1676207639627126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676207639627137, "dur":5016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1676207639632220, "dur":219102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639042349, "dur":245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639042594, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639045720, "dur":11215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676207639056939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639056957, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676207639058465, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676207639059048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639059055, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676207639062208, "dur":126557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639188769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639189571, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639193732, "dur":117189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639310954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639310963, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639317508, "dur":22842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639340355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639340364, "dur":5819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639346252, "dur":163833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639510093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639510107, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639512014, "dur":141071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639653091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676207639653104, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676207639655372, "dur":195887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639042475, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639042602, "dur":3146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639045748, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676207639046502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639049690, "dur":13674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676207639063433, "dur":125366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639188806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639189772, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639193534, "dur":22715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639216254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639216266, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639218755, "dur":25268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639244865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639244924, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639247263, "dur":34631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639281901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639281913, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639285641, "dur":118946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639404594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639404606, "dur":15655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639420329, "dur":2234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639422570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639422583, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639427351, "dur":342494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639769851, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676207639769861, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676207639772695, "dur":78629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639042508, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639042509, "dur":3150, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639045667, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1676207639045672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639047438, "dur":519, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1676207639047963, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1676207639048043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639048308, "dur":11980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1676207639060291, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1676207639060427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639061245, "dur":128267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1676207639189607, "dur":27536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639217148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639217157, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639222847, "dur":38981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639261834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639261846, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639266055, "dur":38741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639304802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639304815, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639310598, "dur":27812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639338416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639338427, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639343374, "dur":35038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639378419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639378431, "dur":9319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639387817, "dur":72397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639460219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639460228, "dur":17474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639480515, "dur":130456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639610978, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639610990, "dur":10611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676207639621670, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1676207639621736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639621745, "dur":5850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1676207639627652, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1676207639627833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676207639627842, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1676207639632243, "dur":219023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639042541, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639042542, "dur":3208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639045751, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676207639045942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639049668, "dur":16530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676207639066426, "dur":122569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639188999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639189779, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639196083, "dur":27059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639223148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639223161, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639225542, "dur":27270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639252819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639252830, "dur":8461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639261368, "dur":41472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639302847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639302859, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639307529, "dur":25119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639332656, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639332669, "dur":8248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639341013, "dur":26023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639367150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639367164, "dur":12718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639379944, "dur":82528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639462480, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639462496, "dur":13867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639476428, "dur":246926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639723359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676207639723368, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676207639726549, "dur":124742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639042583, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639042584, "dur":3077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639045667, "dur":39624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1676207639085298, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639189265, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1676207639190648, "dur":24208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639214865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639214880, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639216399, "dur":48065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639264473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639264487, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639269424, "dur":30370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639299799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639299810, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639304394, "dur":95000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639399439, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639399455, "dur":26121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639425651, "dur":4328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639429989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639430003, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639431450, "dur":85850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639517308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639517353, "dur":37037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639554470, "dur":92523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639647003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676207639647018, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676207639650402, "dur":200880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639042659, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639042659, "dur":3068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639045728, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1676207639046534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639049369, "dur":14905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1676207639064332, "dur":40327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639104668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639189607, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639192502, "dur":24215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639216723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639216735, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639220142, "dur":52714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639272865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639272908, "dur":9616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639282584, "dur":54861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639337482, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639337496, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639344472, "dur":102021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639446501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639446514, "dur":16493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639467714, "dur":88012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639555733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639555747, "dur":12817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639568626, "dur":63737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639632369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676207639632383, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676207639636841, "dur":214393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639042561, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639042561, "dur":3211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639045772, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1676207639046102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639052384, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1676207639056977, "dur":2841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1676207639059823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639059830, "dur":7590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1676207639067615, "dur":121206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639188826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639189632, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639192978, "dur":64725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639257712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639257725, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639259263, "dur":56141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639315414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639315429, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639317296, "dur":21308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639338610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639338620, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639342942, "dur":48992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639391942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639391955, "dur":27521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639419537, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639420714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639420727, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639425354, "dur":38231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639463591, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639463604, "dur":12629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639476343, "dur":206758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639683107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676207639683119, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676207639684535, "dur":166716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639042821, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639042821, "dur":2888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639045710, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1676207639046597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639048725, "dur":20889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1676207639069776, "dur":33783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639103568, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639189757, "dur":5633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639195448, "dur":166207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639361663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639361680, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639365145, "dur":92172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639457325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639457339, "dur":18472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639475886, "dur":61798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639537692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639537707, "dur":18869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639556704, "dur":292083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639848792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676207639848800, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676207639851154, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1676207639851156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639042682, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639042682, "dur":3047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639045730, "dur":9176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1676207639054911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639055046, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1676207639056269, "dur":139984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639196257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639196376, "dur":7328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639203768, "dur":46804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639250578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639250604, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639252479, "dur":22103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639274588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639274600, "dur":11231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639285935, "dur":43461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639329403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639329415, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639330800, "dur":81155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639411965, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639411980, "dur":8008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639420143, "dur":52549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639472701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639472715, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639476593, "dur":246515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639723115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676207639723126, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676207639726520, "dur":124782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639042745, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639042745, "dur":2938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639045688, "dur":9818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1676207639055510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639055524, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1676207639056536, "dur":334904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676207639391446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639391456, "dur":52074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676207639443600, "dur":158915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676207639602580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676207639602594, "dur":27161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676207639629817, "dur":221425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639042947, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639042947, "dur":2802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639045750, "dur":18175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1676207639063929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639063973, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1676207639066655, "dur":122338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639188997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639189790, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639194443, "dur":36076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639230527, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639230541, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639232285, "dur":27005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639259297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639259310, "dur":7134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639266521, "dur":33048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639299577, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639300368, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639304355, "dur":31339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639335703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639335717, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639339884, "dur":39099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639378991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639379003, "dur":7613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639386671, "dur":32066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639418746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639418760, "dur":6925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639425746, "dur":102654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639528407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639528421, "dur":43242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":17, "ts":1676207639571721, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":17, "ts":1676207639571782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639571843, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":17, "ts":1676207639574972, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":17, "ts":1676207639575026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639575040, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":17, "ts":1676207639576569, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639576626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639576634, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639578248, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":17, "ts":1676207639578309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639578319, "dur":22142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":17, "ts":1676207639600551, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639600610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639600622, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639603893, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level4" }}
+,{ "pid":12345, "tid":17, "ts":1676207639603952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639603960, "dur":18676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level4" }}
+,{ "pid":12345, "tid":17, "ts":1676207639622690, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639622745, "dur":102, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1676207639623263, "dur":11170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1676207639634484, "dur":216760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1676207639043167, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1676207639043167, "dur":2555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1676207639045723, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1676207639046047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1676207639051812, "dur":321131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1676207639373028, "dur":267960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":18, "ts":1676207639640995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1676207639641008, "dur":7593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":18, "ts":1676207639648673, "dur":202575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639043190, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639043191, "dur":2569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639045760, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1676207639046150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639063296, "dur":316045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1676207639379403, "dur":1042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639380450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639380461, "dur":21756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639402281, "dur":44836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639447122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639447133, "dur":26179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639473380, "dur":134020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639607407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639607422, "dur":14468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":19, "ts":1676207639621955, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level1" }}
+,{ "pid":12345, "tid":19, "ts":1676207639622163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1676207639622174, "dur":25390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level1" }}
+,{ "pid":12345, "tid":19, "ts":1676207639647630, "dur":203607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639043209, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639043210, "dur":2567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639045778, "dur":37122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639082933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639083539, "dur":106860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639190512, "dur":21107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639211626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639211945, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639213872, "dur":159574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639373482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639373493, "dur":10305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639383859, "dur":58539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639442405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639442418, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639444646, "dur":156230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639600881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639600898, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":20, "ts":1676207639602652, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1676207639602717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639602725, "dur":11274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1676207639614181, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level3.resS" }}
+,{ "pid":12345, "tid":20, "ts":1676207639614240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639614251, "dur":7551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level3.resS" }}
+,{ "pid":12345, "tid":20, "ts":1676207639621891, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level1.resS" }}
+,{ "pid":12345, "tid":20, "ts":1676207639621959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1676207639621966, "dur":7162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/legoj/Desktop/Kevin Strikes Back/MechaKevin Tries Again_Data/level1.resS" }}
+,{ "pid":12345, "tid":20, "ts":1676207639629208, "dur":222022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676207639855241, "dur":3317, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676207639864676, "dur": 717, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676207639864300, "dur": 1118, "ph": "X", "name": "Write chrome-trace events", "args": {} },

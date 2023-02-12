@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 18888318afc1cdf49b1acaba9bf0ddee
+  - enabled: 1
+    path: Assets/Scenes/First World.unity
+    guid: b2230c5090b7c5f48927e4f9669dc153
+  - enabled: 1
+    path: Assets/Scenes/Encounter.unity
+    guid: bd30a6f159a84ba49b6b2463231b1401
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 8ac26bf9cb8f39946820215c42a266be
+  - enabled: 1
+    path: Assets/Scenes/Lost Screen.unity
+    guid: a85e1be0761d75340a5139fba3a60ba2
+  m_configObjects: {}
